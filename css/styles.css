@@ -202,7 +202,6 @@ textarea {
   color: var(--black-logo-color);
 }
 
-
 /*-------Студія--------*/
 /*-------------------- */
 /*-----Заголовок------*/
@@ -603,9 +602,7 @@ textarea {
   color: var(--secondary-text-color);
 }
 
-
 /* -----нижня частина footer------- */
-
 
 .footer {
   background-color: #2f303a;
@@ -716,7 +713,6 @@ textarea {
 
 /* кнопка підписатися */
 
-
 .footer-form {
   margin-left: 93px;
 }
@@ -749,7 +745,7 @@ textarea {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
 
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-form-input:focus,
@@ -775,7 +771,7 @@ textarea {
   color: #ffffff;
   cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);   
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-form-submit > .footer-btn-icon {
@@ -789,10 +785,7 @@ textarea {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
-
 /* ---модальне вікно--- */
-
-
 
 .backdrop {
   position: fixed;
@@ -857,7 +850,7 @@ textarea {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 30px;
+  margin-bottom: 12px;
 
   font-weight: 700;
   font-size: 20px;
@@ -940,7 +933,6 @@ textarea {
 
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-}
 
 .form-message::placeholder {
   font-size: 12px;
@@ -950,7 +942,7 @@ textarea {
   color: rgba(117, 117, 117, 0.5);
 }
 
-.form-message:focus{
+.form-message:focus {
   border-color: var(--accent-color);
 }
 
@@ -1007,6 +999,7 @@ textarea {
 
 .form-icon-checked {
   opacity: 0;
+  background: transparent;
 
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -1020,6 +1013,7 @@ textarea {
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
+  color: #757575;
   user-select: none;
 }
 
